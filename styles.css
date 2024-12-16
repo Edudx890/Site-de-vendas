@@ -1,0 +1,132 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Cor de fundo mais suave */
+    color: #333; /* Texto mais escuro para melhor contraste */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    font-style: oblique;
+}
+
+header {
+    background-color: #ff5c8a; /* Cor mais suave para o cabeçalho */
+    color: #c6ffc4; /* Texto branco para melhor legibilidade */
+    padding: 2rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    background-color: #c6ffc4; /* Fundo branco para o menu */
+    border-radius: 50px;
+    margin: 20px 0;
+}
+
+nav ul li {
+    margin:  20px;
+}
+
+nav a {
+    color: #ff5c8a; /* Cor da fonte para o menu */
+    text-decoration: none;
+    font-weight: bold; /* Texto em negrito */
+}
+
+#hero {
+    background-color: #0044ff; /* Mantido para destacar */
+    color: white; /* Texto branco para contraste */
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra mais suave */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff8f4a; /* Mantido */
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+button:hover {
+    background-color: #e60000; /* Mantido */
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.produtos-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Permite que os produtos se ajustem em várias linhas */
+}
+
+.produto {
+    display: inline-block;
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff; /* Fundo branco para os produtos */
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s; /* Transição suave */
+}
+
+.produto:hover {
+    transform: translateY(-5px);
+    background-color: #ffe732; /* Mantido */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais forte ao passar o mouse */
+}
+
+/* Estilos do Formulário de Contato */
+#contato {
+    background-color: #62C5F5;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 15px;
+    background-color: #FFCC00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+form button:hover {
+    background-color: #003F6C;
+    border-radius: 40px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333; /* Mantido */
+    color: white;
+}
